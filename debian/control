@@ -1,21 +1,23 @@
 ### Commented entries have reasonable defaults.
 ### Uncomment to edit them.
-# Source: <source package name; defaults to package name>
+Source: philsf-likes-all
 Section: metapackages
 Priority: optional
+Maintainer: Felipe Figueiredo <philsf79@gmail.com>
 # Homepage: <enter URL here; no default>
-Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 7), germinate
+Standards-Version: 3.9.4
 
 Package: philsf-likes-all
-Version: 0.1.0
-Maintainer: Felipe Figueiredo <philsf79@gmail.com>
+# Version: 0.1.0
+# Maintainer: Felipe Figueiredo <philsf79@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-# Depends: <comma-separated list of packages>
+Depends: ${misc:Depends}
 Recommends: philsf-likes-desktop, philsf-likes-workstation
 Suggests: philsf-likes-server
 # Provides: <comma-separated list of packages>
 # Replaces: <comma-separated list of packages>
-# Architecture: all
+Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 # Changelog: <changelog file; defaults to a generic changelog>
 # Readme: <README.Debian file; defaults to a generic one>
