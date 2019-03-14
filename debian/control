@@ -14,7 +14,7 @@ Package: philsf-likes-all
 # Pre-Depends: <comma-separated list of packages>
 Depends: ${misc:Depends}
 Recommends: philsf-likes-desktop, philsf-likes-workstation
-Suggests: philsf-likes-server
+Suggests: philsf-likes-stats, philsf-likes-server
 # Provides: <comma-separated list of packages>
 # Replaces: <comma-separated list of packages>
 Architecture: all
