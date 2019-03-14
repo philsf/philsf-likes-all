@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7), germinate
 Standards-Version: 3.9.4
 
 Package: philsf-likes-all
-# Version: 0.1.0
+# Version: defaults to changelog version
 # Maintainer: Felipe Figueiredo <philsf79@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: ${misc:Depends}
