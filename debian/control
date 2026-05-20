@@ -13,8 +13,15 @@ Package: philsf-likes-all
 # Maintainer: Felipe Figueiredo <philsf79@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: ${misc:Depends}
-Recommends: philsf-likes-desktop, philsf-likes-workstation
-Suggests: philsf-likes-stats, philsf-likes-server
+Recommends:
+ philsf-likes-desktop,
+ philsf-likes-workstation,
+ philsf-likes-academic,
+ philsf-likes-sysadmin,
+Suggests:
+ philsf-likes-stats,
+ philsf-likes-server,
+ philsf-likes-bioinfo,
 # Provides: <comma-separated list of packages>
 # Replaces: <comma-separated list of packages>
 Architecture: all

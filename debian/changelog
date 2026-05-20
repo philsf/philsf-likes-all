@@ -1,3 +1,10 @@
+philsf-likes-all (0.2.1) UNRELEASED; urgency=medium
+
+  * Added (Recommends): philsf-likes-academic, philsf-likes-sysadmin
+  * Added (Suggests): philsf-likes-bioinfo
+
+ -- Felipe Figueiredo <philsf79@gmail.com>  Wed, 20 May 2026 05:21:03 -0300
+
 philsf-likes-all (0.2.0) cosmic; urgency=medium
 
   * Includes new package: philsf-likes-stats
