@@ -16,9 +16,12 @@ Depends: ${misc:Depends}
 Recommends:
  philsf-likes-desktop,
  philsf-likes-workstation,
+ philsf-likes-academic,
+ philsf-likes-sysadmin,
 Suggests:
  philsf-likes-stats,
  philsf-likes-server,
+ philsf-likes-bioinfo,
 # Provides: <comma-separated list of packages>
 # Replaces: <comma-separated list of packages>
 Architecture: all
