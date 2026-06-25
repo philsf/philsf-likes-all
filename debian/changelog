@@ -1,8 +1,8 @@
-philsf-likes-all (0.3.0) UNRELEASED; urgency=medium
+philsf-likes-all (0.3.0) resolute; urgency=medium
 
   * INFRA: upgrade control and rules to new metapackage structure
 
- -- Felipe Figueiredo <philsf79@gmail.com>  Wed, 20 May 2026 19:27:10 -0300
+ -- Felipe Figueiredo <philsf79@gmail.com>  Thu, 25 Jun 2026 19:41:44 -0300
 
 philsf-likes-all (0.2.1) noble; urgency=medium
 
